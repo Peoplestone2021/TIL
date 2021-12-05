@@ -1,12 +1,8 @@
 # Deployment Diagram
 
----
-
 UML 사용 배포 흐름도 작성
 
 ## 배포 다이어그램
-
----
 
 <img src="./images/deploy_diagram.png" width="100%" title="deployment diagram" alt="deployment_diagram"></img><br />
 
@@ -15,8 +11,6 @@ UML 사용 배포 흐름도 작성
 - ORM은 의존성과 같은 형태로 표현했는데 만족스럽지 않음
 
 ### Explain
-
----
 
 Client는 프론트엔드 서버 80포트로 접근함.
 프론트엔드 서버는 현재 라우팅테이블 설정을 변경하여 80포트 접속 시도 시 3000번 포트로 이어줌. 이유는 다음과 같음.
