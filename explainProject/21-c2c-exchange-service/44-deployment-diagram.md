@@ -4,7 +4,7 @@ UML 사용 배포 흐름도 작성
 
 ## 배포 다이어그램
 
-<img src="./images/deploy_diagram.png" width="100%" title="deployment diagram" alt="deployment_diagram"></img><br />
+<img src="https://github.com/Peoplestone2021/TIL/blob/main/explainProject/21-c2c-exchange-service/images/deploy_diagram.PNG?raw=true" width="100%" title="deployment diagram" alt="deployment_diagram"></img><br />
 
 - 각 서버, 클라이언트, DB, API를 Device단위로 분류하여 도식화함
 - 콤포넌트 간 의존성은 점선, 디바이스 간 연결은 실선으로 표현
